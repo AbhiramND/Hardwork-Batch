@@ -1,4 +1,4 @@
-package stringLogical;
+package StringPrgs;
 
 public class Fetch5Character {
 	public static void main(String[] args) {

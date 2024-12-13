@@ -1,4 +1,4 @@
-package arrays;
+package arrayPrgs;
 
 public class Largest123 {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Largest123 {
 			} else if (arr[i] > sl) {
 				tl = sl;
 				sl = arr[i];
-			} else if (arr[i] > fl) {
+			} else if (arr[i] > tl) {
 				tl = arr[i];
 
 			}
