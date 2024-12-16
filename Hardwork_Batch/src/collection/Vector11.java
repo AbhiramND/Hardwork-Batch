@@ -16,11 +16,27 @@ public class Vector11
 		l1.add("kalaburagi");
 		l1.add("yadagiri");
 		l1.add("davanageri");
+		l1.add("yadagiri");
+		l1.add("davanageri");
+		l1.add("davanageri");
+		l1.add("Mandya");
+		l1.add("Mysore");
+		l1.add("Bangalore");
+		l1.add("shivamoga");
+		l1.add("hubli");
+		l1.add("kalaburagi");
+		l1.add("yadagiri");
+		l1.add("davanageri");
+		l1.add("yadagiri");
+		l1.add("davanageri");
+		
+		
+		System.out.println(l1.capacity());
 	
-		for(int i=0;i<l1.size();i++)
-			{
-			System.out.println(l1.get(i));
-			}
+//		for(int i=0;i<l1.size();i++)
+//			{
+//			System.out.println(l1.get(i));
+//			}
 		
 		
 

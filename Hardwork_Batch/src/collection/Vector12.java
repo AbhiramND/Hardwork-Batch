@@ -1,12 +1,13 @@
 package collection;
 
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Vector12 
 {
 	public static void main(String[] args) 
 	{
-		Vector l1=new Vector();
+		ArrayList l1=new ArrayList();
+		ArrayList l2=new ArrayList();
 		l1.add("Mandya");
 		l1.add("Mysore");
 		l1.add("Bangalore");
@@ -14,20 +15,20 @@ public class Vector12
 		l1.add("hubli");
 		l1.add("kalaburagi");
 		l1.add("yadagiri");
-		l1.add("davanageri");
 		
-		l1.add("Mandya");
-		l1.add("Mysore");
-		l1.add("Bangalore");
-		l1.add("shivamoga");
-		l1.add("hubli");
-		l1.add("kalaburagi");
-		l1.add("yadagiri");
-		l1.add("davanageri");
 		
-		System.out.println(l1);
+		l2.add("Mandya");
+		l2.add("Mysore");
+		l2.add("Bangalore");
+		l2.add("shivamoga");
+		l2.add("hubli");
+		l2.add("kalaburagi");
+		l2.add("yadagiri");
+		l2.add("davanageri");
 		
-		System.out.println(l1.capacity());
+		 
+		
+//		System.out.println(l1.);
 		
 		
 
