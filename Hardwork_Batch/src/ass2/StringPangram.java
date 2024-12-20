@@ -5,8 +5,7 @@ import java.util.HashSet;
 public class StringPangram {
 
 	public static boolean isPangram(String str) {
-		str = str.toLowerCase();
-//	        System.out.println(str);
+//		str = str.toLowerCase();
 		HashSet<Character> set = new HashSet<>();
 
 		for (char c : str.toCharArray()) {

@@ -2,7 +2,7 @@ package lambdaExpression;
 
 import java.util.ArrayList;
 
-public class A1 {
+public class RealTime1 {
 	public static void main(String[] args) {
 		ArrayList list = new ArrayList();
 		list.add("Lotus");

@@ -6,8 +6,9 @@ public class RemoveDuplicatesUsingSingleLoop {
 		String s = "Rajubhai";
 		String res = "";
 		for (int i = 0; i < s.length(); i++) {
-			if(res.indexOf(s.charAt(i))==-1) {
-				res+=s.charAt(i);
+			char ch = s.charAt(i);
+			if(res.indexOf(ch)==-1) {
+				res+=ch;
 			}
 		}
 		System.out.println(res);

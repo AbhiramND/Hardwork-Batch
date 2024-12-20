@@ -10,7 +10,6 @@ public class ReverseTheStringWithOutReverseSpace {
 				System.out.print(" ");
 			} else {
 				System.out.print(s1.charAt(index--));
-
 			}
 		}
 	}
